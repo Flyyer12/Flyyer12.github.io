@@ -1,0 +1,37 @@
+body {
+  background: black;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+canvas {
+  background: black;
+  z-index: -1;
+}
+
+canvas,
+ins {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ins {
+  background: "red";
+}
+
+@font-face {
+
+  font-family: 'Pixelos';
+  src: url("./pixelos.ttf");
+
+}
+
+@font-face {
+
+  font-family: 'Weymouth';
+  src: url("./Weymouth-Ribbon.otf");
+
+}
